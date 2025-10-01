@@ -14,3 +14,12 @@ This project demonstrates how to scan and secure Docker containers using Trivy a
 docker-compose up -d
 trivy image bkimminich/juice-shop
 bash docker-bench-security.sh
+
+--------------------------------------------
+📊 Scan Results
+See scan-results/ folder for full reports.
+🖼️ Screenshots
+Add screenshots of your scans here.
+📘 Lessons Learned
+- Importance of scanning containers before deployment
+- How to automate security checks in CI/CD pipelines
