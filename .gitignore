@@ -1,0 +1,35 @@
+# ─── Raw scan output & captures (never commit real data) ───
+scans/
+*.pcap
+*.pcapng
+*.gnmap
+*.nmap
+nikto-report.*
+*-report.html
+*-report.pdf
+*.nessus
+lynis-report.dat
+
+# ─── Tool working dirs ───
+loot/
+sessions/
+msf-*.log
+
+# ─── Findings: keep the template, ignore filled-in real logs if you prefer ───
+# (Uncomment the next two lines to keep your actual findings private.)
+# findings/*
+# !findings/TEMPLATE-finding.md
+
+# ─── OS / editor cruft ───
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
+
+# ─── Secrets (belt and suspenders — never commit these) ───
+*.key
+*.pem
+.env
+credentials*
